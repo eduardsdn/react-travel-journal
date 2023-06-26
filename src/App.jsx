@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <div className='cards'>
-          <Card />
+        <div className="container">
+          <div className='cards'>
+            <Card />
+          </div>
         </div>
     </div>
   );

@@ -56,8 +56,8 @@ table {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   /* width: 100vw; */
   height: 100vh;
-  padding-left: 300px;
-  padding-right: 300px;
+  /* padding-left: 300px;
+  padding-right: 300px; */
 }
 
 /* Header */
@@ -70,6 +70,19 @@ header {
   padding-bottom: 16px;
 }
 
+.header-container{
+  padding-left: 400px;
+  padding-right: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
 .header-logo {
   width: 44px;
   margin-right: 10px;
@@ -79,6 +92,65 @@ header {
   color: #FFFF;
   font-size: 22px;
 }
+
+/* Cards */
+.card {
+  margin-top: 50px;
+  display: flex;
+}
+
+.card-img{
+  width: 180px;
+  height: 250px;
+}
+
+.card-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-location{
+  display: flex;
+  align-items: center;
+}
+
+.card-location-icon {
+  width: 12px;
+}
+
+.location-country {
+  margin-left: 5px;
+  letter-spacing: 1.741px;
+}
+
+.location-link {
+  margin-left: 15px;
+  color: #918E9B;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.card-dates {
+  margin-top: 25px;
+  color: #2B283A;
+  font-weight: 700;
+  display: flex;
+  gap: 5px;
+}
+
+.card-description {
+  text-align: left;
+  max-width: 460px;
+  margin-top: 9px;
+}
+
+
 
 
 
