@@ -94,6 +94,13 @@ header {
 }
 
 /* Cards */
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
 .card {
   margin-top: 50px;
   display: flex;
