@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,4 +50,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* App */
+.App {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  /* width: 100vw; */
+  height: 100vh;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* Header */
+header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header-logo {
+  width: 44px;
+  margin-right: 10px;
+}
+
+.header-title {
+  color: #FFFF;
+  font-size: 22px;
+}
+
+
+
+
+
 
